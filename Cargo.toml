@@ -1,7 +1,7 @@
 [package]
 name = "defmt-example"
 version = "0.1.0"
-authors = ["Kirill Mikhailov <konnor1980@yandex.ru>"]
+authors = ["Kirill Mikhailov <playfulfence@gmail.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
 
