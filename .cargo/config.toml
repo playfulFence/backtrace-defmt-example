@@ -1,5 +1,5 @@
 [target.riscv32imac-unknown-none-elf]
-runner = "espflash flash --monitor"
+runner = "espflash flash --monitor -L defmt"
 
 
 [build]
@@ -11,7 +11,7 @@ rustflags = [
 
 target = "riscv32imac-unknown-none-elf"
 # target = "riscv32imc-unknown-none-elf" # esp32c3
-# target = "xtensa-esp32##-none-elf" # replace ## with Xtensa board 
+# target = "xtensa-esp32##-none-elf" # replace ## with Xtensa board
 
 [unstable]
 build-std = ["core"]
