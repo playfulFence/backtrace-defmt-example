@@ -6,7 +6,6 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-esp32c6-hal = { git = "https://github.com/esp-rs/esp-hal.git", features = ["defmt"]}
-esp-backtrace = { path = "../esp-backtrace", features = ["esp32c6", "panic-handler", "exception-handler", "print-uart", "defmt-espflash"] }
+esp32c6-hal = { version = "0.7.0", features = ["defmt"] }
+esp-backtrace = { version = "0.10.0", features = ["esp32c6", "panic-handler", "exception-handler", "print-uart", "defmt-espflash"] }
 defmt = "0.3.5"
-# esp-println = {path = "../esp-println", default-features=false, features=["esp32c3", "uart", "defmt-espflash"]}
